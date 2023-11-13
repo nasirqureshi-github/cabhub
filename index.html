@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CabHUB.com</title>
+    <!-- site title -->
+  <link href="images/car img-2.png" rel="icon">
+    <!-- goole fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awsome -->
+    <script
+      src="https://kit.fontawesome.com/cfe69855f7.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- bootsrap link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+
+    <!-- main css file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <section class="hero-section" id="home">
+      <!-- Navbar -->
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand logo" href="#">Cab<span>HUB</span></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#home"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#about"
+                    >ABOUT</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#feature"
+                    >FEATURE</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#blog">BLOG</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#download">ORDER NOW</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">CONTACTS</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="hero-title">
+              <h3>BOOK CAB NOW</h3>
+              <h2>+123 4567 8900</h2>
+              <p>www.cabhub.com</p>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <img
+              class="hero-img"
+              src="images/hero-Car-Image.png"
+              alt="car image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- colered section -->
+
+    <div class="container-fluid colored-section">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <div class="colored-section-content" id="about">
+            <h3>Best IN CITY</h3>
+            <h2>TRUSTED CAB SERVICES IN NEWYORK</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci
+              magni placeat quisquam voluptate ducimus amet, molestiae voluptas
+              dicta ad tenetur at, eligendi odio libero reprehenderit nisi,
+              officia nostrum saepe totam!
+            </p>
+            <button class="read-more-btn"><a href="#">READ MORE</a></button>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+          <div class="colored-section-content">
+            <table>
+              <thead>
+                <tr>
+                  <th>BOOK A <span>CAB</span></th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td class="table-data-1">Name</td>
+                  <td class="table-data-2">Phone</td>
+                </tr>
+
+                <tr>
+                  <td class="table-data-1">When</td>
+                  <td class="table-data-2">Time</td>
+                </tr>
+                <tr>
+                  <td class="table-data-1">Start</td>
+                  <td class="table-data-2">End</td>
+                </tr>
+
+                <tr>
+                  <td class="table-data-3">Choose Vehicle</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td>
+                    <button class="submit-btn"><a href="#">Submit</a></button>
+                  </td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- of end colered section -->
+
+    <!-- feature section -->
+    <section class="feature-section" id="feature">
+      <div class="container-fluid feature-container">
+        <div class="row">
+          <div class="feature-title">
+            <h3>OUR</h3>
+            <h2>TARIFFS</h2>
+          </div>
+
+          <div class="feature-box col-lg-4 col-md-6">
+            <div class="feature-content">
+              <img class="car-img" src="images/car img-2.png" alt="car-image" />
+              <h2>ECONMOMY CLASS</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius,
+                commodiiusto eum vitaeomnis saepe maiores quis non. Inventore
+                sapiente deserunt hic?
+              </p>
+              <h2 class="price">$1,5/MI</h2>
+              <button class="feature-content-btn">
+                <a href="#">READ MORE</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="feature-box col-lg-4 col-md-6">
+            <div class="feature-content standard-class">
+              <img class="car-img" src="images/car img-2.png" alt="car-image" />
+              <h2>STANDARD CLASS</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius,
+                commodiiusto eum vitaeomnis saepe maiores quis non. Inventore
+                sapiente deserunt hic?
+              </p>
+              <h2>$1,5/MI</h2>
+              <button class="standard-class-btn">
+                <a href="#">READ MORE</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="feature-box col-lg-4 col-md-6">
+            <div class="feature-content">
+              <img class="car-img" src="images/car img-2.png" alt="car-image" />
+              <h2>BUSINESS CLASS</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius,
+                commodiiusto eum vitaeomnis saepe maiores quis non. Inventore
+                sapiente deserunt hic?
+              </p>
+              <h2 class="price">$1,5/MI</h2>
+              <button class="feature-content-btn">
+                <a href="#">READ MORE</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End OF feature section -->
+
+    <!-- blog  section -->
+
+    <section class="blog-container" id="blog">
+      <div class="blog-title">
+        <h3>WHY DO BEST</h3>
+        <h2>THANK YOU WISH</h2>
+      </div>
+
+      <div class="container-fluid blog-content">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="blog-icon">
+              <img src="images/star.png" alt="star-image" />
+            </div>
+
+            <div class="blog-data">
+              <h3>HOME PICKUP</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Impedit non, eius suscipit minima perferendis.
+              </p>
+            </div>
+
+            <div class="blog-icon">
+              <img src="images/ride-icon.png" alt="ride-image" />
+            </div>
+
+            <div class="blog-data">
+              <h3>BUSINESS FOR RIDE</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Impedit non, eius suscipit minima perferendis.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="blog-icon">
+              <img src="images/cup-icon.png" alt="cup-image" />
+            </div>
+
+            <div class="blog-data">
+              <h3>FAST BOOKING</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Impedit non, eius suscipit minima perferendis.
+              </p>
+            </div>
+
+            <div class="blog-icon">
+              <img src="images/srrting-icon.png" alt="setting-image" />
+            </div>
+
+            <div class="blog-data">
+              <h3>GPS SEARCHING</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Impedit non, eius suscipit minima perferendis.
+              </p>
+            </div>
+          </div>
+          <div class="blog-btn">
+            <button class="btn btn-primary btn-md read-more-btn">
+              <a href="#">READ MORE</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of blog  section -->
+
+    <!-- download section -->
+
+    <section class="download-section" id="download">
+      <div class="download-title">
+        <h3>DOWNLOAD</h3>
+        <h2>BEST CAB SERVIES</h2>
+      </div>
+      <div class="container-fluid download-content">
+        <div class="row">
+          <div class="download-data">
+            <h3>Download the cab voucher free!</h3>
+            <h3>Get Exciting New Offers</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Cupiditate repellendus praesentium.
+            </p>
+            <a href="#"
+              ><img
+                class="download-icon"
+                src="images/google-play-icon.png"
+                alt="google play store"
+            /></a>
+            <a href="#"
+              ><img
+                class="download-icon"
+                src="images/apple-icon.png"
+                alt="apple store"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End of download section -->
+
+    <!-- Testimonial section -->
+    <section class="testimonial">
+      <div class="testimonial-title">
+        <h3>HAPPY CLIENT'S</h3>
+        <h2>TESTIMONIALS</h2>
+      </div>
+
+      <div class="container-fluid">
+        <div class="testimonial-content">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="client">
+                <div class="client-review">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sed, libero quam dolorum.
+                  </p>
+                  <img class="client-img" src="images/man-img1.png" alt="" />
+                  <h2>JOHN DOE</h2>
+                  <h3>BUSINESS MAN</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+              <div class="client">
+                <div class="client-review">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sed, libero quam dolorum.
+                  </p>
+                  <img class="client-img" src="images/man-img1.png" alt="" />
+                  <h2>JOHN DOE</h2>
+                  <h3>BUSINESS MAN</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Testimonial section -->
+
+    <!-- cta section -->
+    <section class="cta-section" id="contact">
+      <div class="container-fluid">
+        <div class="cta-content">
+          <h3>WE ARE READY TO TAKE YOUR CALL 24 HOURS, 7 DAYS!</h3>
+          <h2>+123 4567 8900</h2>
+        </div>
+      </div>
+    </section>
+    <!-- end of cta section -->
+
+    <!-- footer section -->
+    <footer id="footer">
+      <div class="container-fluid footer-section">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 footer-content">
+            <h3>ABOUT CAB HUB</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae optio omnis temporibus.
+            </p>
+            <a href="https://www.facebook.com" target="_blank"
+              ><i class="fa-brands fa-facebook-f social-icon"></i
+            ></a>
+            <a href="https://www.google.com" target="_blank"
+              ><i class="fa-brands fa-google-plus-g social-icon"></i
+            ></a>
+            <a href="https://www.twitter.com" target="_blank"
+              ><i class="fa-brands fa-twitter social-icon"></i
+            ></a>
+            <a href="https://www.instagram.com" target="_blank"
+              ><i class="fa-brands fa-instagram social-icon"></i
+            ></a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-content">
+            <h3>DOWNLOAD</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae optio omnis temporibus.
+            </p>
+
+            <div class="users">
+              <p>
+                Android Users
+                <i
+                  class="fa-solid fa-robot android-icon"
+                  style="color: #ffffff"
+                ></i>
+              </p>
+              <p>
+                IOS Users
+                <i
+                  class="fa-brands fa-apple apple-icon"
+                  style="color: #ffffff"
+                ></i>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 footer-content">
+            <h3>CONTACT</h3>
+            <p>
+              <i class="fa-solid fa-location-dot contact-icon"></i> +123,Main
+              Street,New york,USA 749821
+            </p>
+            <p><i class="fa-solid fa-phone contact-icon"></i> +123 4567 8900</p>
+            <p>
+              <i class="fa-solid fa-envelope contact-icon"></i> cabhub@gmail.com
+            </p>
+            <p>
+              <i class="fa-solid fa-arrow-pointer contact-icon"></i>
+              www.cabhub.com
+            </p>
+          </div>
+          <p class="copyright">copyright &copy; 2022 cabhub.com</p>
+        </div>
+      </div>
+    </footer>
+   <!-- endof footer section -->
+
+
+    <!-- bootstarp js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
