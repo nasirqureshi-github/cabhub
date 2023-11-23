@@ -25,15 +25,17 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
     />
 
+  
     <!-- main css file -->
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body>
-    <section class="hero-section" id="home">
+  <body >
+    
       <!-- Navbar -->
+      <section class="hero-section" id="home">
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg ">
           <a class="navbar-brand logo" href="#">Cab<span>HUB</span></a>
           <button
             class="navbar-toggler"
@@ -42,53 +44,61 @@
             data-bs-target="#offcanvasNavbar"
             aria-controls="offcanvasNavbar"
             aria-label="Toggle navigation"
+           
           >
+        
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="offcanvas offcanvas-start"
+            class=" offcanvas offcanvas-start"
             tabindex="-1"
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
+            data-bs-backdrop="false"
+           
           >
+
+          
             <div class="offcanvas-header">
               <button
                 type="button"
-                class="btn-close"
+                class="btn-close "
                 data-bs-dismiss="offcanvas"
                 aria-label="Close"
               ></button>
             </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#home"
+            <div class="offcanvas-body " >
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 "  >
+                <li class="nav-item"  >
+                  <a class="nav-link active"  aria-current="page" href="#home"
                     >HOME</a
                   >
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#about"
+                <li class="nav-item"  >
+                  <a class="nav-link" aria-current="page"   href="#about"
                     >ABOUT</a
                   >
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#feature"
+                <li class="nav-item  ">
+                  <a class="nav-link"  aria-current="page"  href="#feature"
                     >FEATURE</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#blog">BLOG</a>
+                  <a class="nav-link"aria-current="page"  href="#blog">BLOG</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#download">ORDER NOW</a>
+                  <a class="nav-link" aria-current="page"  href="#download">ORDER NOW</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contact">CONTACTS</a>
+                  <a class="nav-link" aria-current="page"   href="#contact">CONTACTS</a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
+        
+
         <div class="row">
           <div class="col-lg-12">
             <div class="hero-title">
@@ -105,7 +115,9 @@
             />
           </div>
         </div>
+
       </div>
+
     </section>
 
     <!-- colered section -->
@@ -456,10 +468,12 @@
         </div>
       </div>
     </footer>
-   <!-- endof footer section -->
-
+   <!-- end of footer section -->
+  
 
     <!-- bootstarp js link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="index.js"></script>
   </body>
 </html>
